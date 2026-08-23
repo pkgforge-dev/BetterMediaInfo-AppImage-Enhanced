@@ -30,5 +30,4 @@ ar xvf /tmp/app.deb
 tar -xvf ./data.tar.gz
 rm -f ./*.gz
 mv -v ./usr/bin/* ./AppDir/bin
-cp -v ./usr/share/applications/BetterMediaInfo.desktop ./usr/share/icons/hicolor/256x256@2/apps/BetterMediaInfo.png ./AppDir
-cp -v ./usr/share/icons/hicolor/256x256@2/apps/BetterMediaInfo.png ./AppDir/.DirIcon
+mv -v ./usr/share/applications/BetterMediaInfo.desktop ./AppDir
